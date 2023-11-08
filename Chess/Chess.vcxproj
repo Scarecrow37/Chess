@@ -155,6 +155,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Chess.cpp" />
+    <ClCompile Include="src\GamePlay\GamePlay.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\GamePlay\GamePlay.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
