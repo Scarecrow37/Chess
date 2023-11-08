@@ -155,9 +155,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Chess.cpp" />
+    <ClCompile Include="src\ChessBoard\ChessBoard.cpp" />
     <ClCompile Include="src\GamePlay\GamePlay.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\ChessBoard\ChessBoard.h" />
     <ClInclude Include="src\GamePlay\GamePlay.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
