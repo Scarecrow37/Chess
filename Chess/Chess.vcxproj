@@ -156,11 +156,16 @@
   <ItemGroup>
     <ClCompile Include="Chess.cpp" />
     <ClCompile Include="src\ChessBoard\ChessBoard.cpp" />
+    <ClCompile Include="src\ChessPiece\ChessPiece.cpp" />
+    <ClCompile Include="src\ChessPiece\Rook.cpp" />
     <ClCompile Include="src\GamePlay\GamePlay.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\ChessBoard\ChessBoard.h" />
+    <ClInclude Include="src\ChessPiece\ChessPiece.h" />
+    <ClInclude Include="src\ChessPiece\Rook.h" />
     <ClInclude Include="src\GamePlay\GamePlay.h" />
+    <ClInclude Include="src\Location.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
